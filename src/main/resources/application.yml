@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: gunay
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: none
